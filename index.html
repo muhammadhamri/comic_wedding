@@ -12,6 +12,9 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link href="https://fonts.googleapis.com/css2?family=Edu+TAS+Beginner&family=Inter:wght@100;200;300;400;500&family=Lugrasimo&family=Sacramento&family=Work+Sans:wght@300;500;600&display=swap" rel="stylesheet" />
 
+    <!-- AOS -->
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+
     <!-- count down -->
 
     <link rel="stylesheet" href="countdown/simplyCountdown.theme.default.css" />
@@ -62,7 +65,7 @@
     <section id="home" class="home">
       <div class="container  ">
         <div class="row justify-content-center ">
-          <div class="col-md-8 text-center">
+          <div class="col-md-8 text-center" data-aos="fade-down" data-aos-offset="300"  data-aos-duration="2000">
             <h2>Acara Pernikahan</h2>
             <h3>Diselenggarakan pada 28 February di Pasaman Barat. Sumatera Barat</h3>
             <p>Oleh karena itu dengan segala hormat kami bermaksud untuk mengundang Bapak/Ibu/Saudara/i untuk hadir pada acara pernikahan kami.</p>
@@ -71,8 +74,8 @@
 
             <span class="row  couple">
               <div class="col-lg-6">
-                <div class="row">
-                  <div class="col-8 text-end">
+                <div class="row" data-aos="fade-left" data-aos-duration="500">
+                  <div class="col-8 text-end" >
                     <h3>Comot</h3>
                     <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Modi at dignissimos</p>
                     <p>
@@ -89,11 +92,11 @@
 
             <span class="heart"><i class="bi bi-heart-fill"></i></span>
               <div class="col-lg-6">
-            <div class="row">
+            <div class="row" data-aos="fade-right" data-aos-duration="700">
               <div class="col-4">
                 <img src="image/1.png" alt="" class="img-responsive rounded-circle" />
               </div>
-              <div class="col-8 ">
+              <div class="col-8 " >
                 <h3>Icung</h3>
                 <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Modi at dignissimos</p>
                 <p>
@@ -271,42 +274,42 @@
 
       <div class="row pt-5 row-cols-md-3 row-cols-sm-2 row-cols-1 justify-content-center coba">
         
-            <div class="col mt-3">
+            <div class="col mt-3" data-aos="zoom-in" data-aos-duration="600" data-aos-offset="300">
               <a href="img/galery/10.png"  data-toggle="lightbox" data-caption="bunga 1" data-gallery="mygallery"> 
                 <img src="img/galery/thumbnail/10.png" alt="bunga" class="img-fluid w-100 rounded">
               </a>
             </div>
-            <div class="col mt-3">
+            <div class="col mt-3" data-aos="zoom-in" data-aos-duration="600" data-aos-offset="300">
               <a href="img/galery/2.png"  data-toggle="lightbox" data-caption="bunga 2" data-gallery="mygallery">
                 <img src="img/galery/thumbnail/2.png" alt="bunga" class="img-fluid w-100 rounded">
               </a>
             </div>
-            <div class="col mt-3">
+            <div class="col mt-3" data-aos="zoom-in" data-aos-duration="600" data-aos-offset="300">
               <a href="img/galery/3.png"  data-toggle="lightbox" data-caption="bunga 3" data-gallery="mygallery">
                 <img src="img/galery/thumbnail/3.png" alt="bunga" class="img-fluid w-100 rounded">
               </a>
             </div>
-            <div class="col mt-3">
+            <div class="col mt-3" data-aos="zoom-in" data-aos-duration="600" data-aos-offset="300">
               <a href="img/galery/9.png"  data-toggle="lightbox" data-caption="bumga 4" data-gallery="mygallery">
                 <img src="img/galery/thumbnail/9.png" alt="bunga" class="img-fluid w-100 rounded">
               </a>
             </div>
-            <div class="col mt-3">
+            <div class="col mt-3" data-aos="zoom-in" data-aos-duration="600" data-aos-offset="300">
               <a href="img/galery/5.png"  data-toggle="lightbox" data-caption="bunga 5" data-gallery="mygallery">
                 <img src="img/galery/thumbnail/5.png" alt="bunga" class="img-fluid w-100 rounded">
               </a>
             </div>
-            <div class="col mt-3">
+            <div class="col mt-3" data-aos="zoom-in" data-aos-duration="600" data-aos-offset="300">
               <a href="img/galery/6.png"  data-toggle="lightbox" data-caption="bunga 6" data-gallery="mygallery">
                 <img src="img/galery/thumbnail/6.png" alt="bunga" class="img-fluid w-100 rounded">
               </a>
             </div>
-            <div class="col mt-3">
+            <div class="col mt-3" data-aos="zoom-in" data-aos-duration="600" data-aos-offset="300">
               <a href="img/galery/7.png"  data-toggle="lightbox" data-caption="bunga 7" data-gallery="mygallery">
                 <img src="img/galery/thumbnail/7.png" alt="bunga" class="img-fluid w-100 rounded">
               </a>
             </div>
-            <div class="col mt-3">
+            <div class="col mt-3" data-aos="zoom-in" data-aos-duration="600" data-aos-offset="300">
               <a href="img/galery/8.png" data-toggle="lightbox" data-caption="bunga 8" data-gallery="mygallery">
                 <img src="img/galery/thumbnail/8.png" alt="bunga" class="img-fluid w-100 rounded">
               </a>
@@ -466,6 +469,14 @@
     <script src="https://cdn.jsdelivr.net/npm/bs5-lightbox@1.8.3/dist/index.bundle.min.js"></script>
 
     <script src="script.js"></script>
+
+    <!-- AOS -->
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+  <script>
+    AOS.init(
+      // {once : true,}
+    );
+  </script>
 
     
   </body>
