@@ -506,7 +506,7 @@ p {
 
 /* Handphone */
 
-@media (max-width: 576px) {
+@media (max-width: 476px) {
   html {
     font-size: 60%;
   }
@@ -520,9 +520,9 @@ p {
     display: none;
   }
 
-  /* .sticky-top {
+  .sticky-top {
     overflow: hidden;
-  } */
+  }
 
   .timeline li .timeline-image{
     width: 140px;
