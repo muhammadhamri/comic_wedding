@@ -530,4 +530,9 @@ p {
   }
 
 
+  .mynavbar .offcanvas {
+    height: 100vh;
+  }
+
+
 }
