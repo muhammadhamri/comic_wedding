@@ -84,7 +84,7 @@ isPlaying = !isPlaying;
 // if (!localStorage .getItem('open')){
 //   disableScroll();
 // }
-if (localStorage .getItem('open')){
+if (!localStorage .getItem('open')){
   disableScroll();
 }
 
